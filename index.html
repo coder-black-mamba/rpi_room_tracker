@@ -45,10 +45,14 @@
             <label for="department" class="form-label">Department</label>
             <select class="form-select" id="department">
               <option selected disabled>Select Department</option>
-              <option value="cmt">Computer Technology</option>
-              <option value="et">Electronics Technology</option>
-              <option value="mt">Mechanical Technology</option>
+              <option value="cs">Computer Science</option>
               <option value="ct">Civil Technology</option>
+              <option value="mt">Mechanical Technology</option>
+              <option value="et">Electrical Technology</option>
+              <option value="ent">Electronics Technology</option>
+              <option value="emt">Electromedical Technology</option>
+              <option value="mnt">Mechatronics Technology</option>
+              <option value="pt">Power Technology</option>
             </select>
           </div>
 
@@ -57,13 +61,12 @@
             <select class="form-select" id="semester">
               <option selected disabled>Select Semester</option>
               <option value="1">1st Semester</option>
-              <option value="2">2nd Semester</option>
+              <!-- <option value="2">2nd Semester</option> -->
               <option value="3">3rd Semester</option>
-              <option value="4">4th Semester</option>
+              <!-- <option value="4">4th Semester</option> -->
               <option value="5">5th Semester</option>
-              <option value="6">6th Semester</option>
+              <!-- <option value="6">6th Semester</option> -->
               <option value="7">7th Semester</option>
-              <option value="8">8th Semester</option>
             </select>
           </div>
 
@@ -82,6 +85,7 @@
               <option selected disabled>Select Group</option>
               <option value="A">A</option>
               <option value="B">B</option>
+              <option value="NA">N/A</option>
             </select>
           </div>
           <div class="my-3">
@@ -92,8 +96,13 @@
         </div>
         <div class="col-md-3"></div>
         <div class="col-md-3"></div>
-        <div class="col-md-6 my-5">
-          <div class="card">
+
+
+
+
+
+        <div class="col-md-6 my-5" id="output-section">
+          <!-- <div class="card">
             <div class="card-header text-center">
               <h5>Class Details</h5>
             </div>
@@ -122,7 +131,8 @@
                 <button class="btn btn-primary" id="view3d">View 3D Map</button>
               </div>
             </div>
-          </div>
+          </div> -->
+          <h3>Please Select All Options Correctly</h3>
 
           <!-- <div class="my-5">
             <hr>
@@ -134,7 +144,7 @@
       </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="output-section">
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
@@ -145,8 +155,8 @@
             rights reserved.
           </p>
         </div>
+        <div class="col-md-3"></div>
       </div>
-      <div class="col-md-3"></div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
